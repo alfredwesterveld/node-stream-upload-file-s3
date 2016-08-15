@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const fs = require('fs');
 const AWS = require('aws-sdk');
 const args = process.argv;
