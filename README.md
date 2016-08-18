@@ -12,7 +12,7 @@ config.json:
 {
   "accessKeyId": "",
   "secretAccessKey": "",
-  "region": "eu-west-1",
+  "region": "",
   "bucket": ""
 }
 ```
@@ -22,7 +22,7 @@ config.json:
 **command:**
 
 ```bash
-stream-upload-file-s3 -c <config> -file <file> -bucket bucket 
+stream-upload-file-s3 --config <config> --filefilename <file> --bucket #bucket 
 ```
 
 **Parameters:** 
